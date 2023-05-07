@@ -1,0 +1,12 @@
+server:
+  port: 1234
+
+spring:
+  application:
+    name: ms-inventory
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8710/eureka/
